@@ -1,5 +1,5 @@
 export default function Profile({name, tag, location, image, stats}) {
-    console.log();
+  
     return (
 
     <div>
