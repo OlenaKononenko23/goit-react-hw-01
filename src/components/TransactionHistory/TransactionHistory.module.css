@@ -1,0 +1,27 @@
+.table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.thHead {
+    font-family: sans-serif;
+    color: white;
+    background-color: #696a68;
+    border: 3px solid black;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 12px;
+}
+
+.tdTxt {
+    font-family: sans-serif;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.tblString:nth-child(2n) {
+    background-color: lightgrey;
+}

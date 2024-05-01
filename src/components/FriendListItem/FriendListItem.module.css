@@ -1,0 +1,31 @@
+.friendItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.img {
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.online {
+    color: green;
+}
+
+.ofline {
+    color: red;
+}
+
+.friendName {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
